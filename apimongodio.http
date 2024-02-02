@@ -1,0 +1,6 @@
+@apimongodio_HostAddress = http://localhost:5048
+
+GET {{apimongodio_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
