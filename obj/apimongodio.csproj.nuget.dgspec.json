@@ -44,6 +44,10 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.23.1, )"

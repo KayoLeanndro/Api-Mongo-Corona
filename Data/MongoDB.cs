@@ -1,9 +1,10 @@
+using System;
 using apimongodio.Data.Collections;
 using MongoDB.Bson.Serialization;
 using MongoDB.Bson.Serialization.Conventions;
 using MongoDB.Driver;
 
-namespace Api.Data
+namespace apimongodio.Data
 {
     public class MongoDB
     {

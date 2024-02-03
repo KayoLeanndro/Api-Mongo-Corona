@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "YQPf4j9cbVpCm+0UNahM7NTHWZZ7OjU5HtvD4qkeyuU=",
+  "Source": "apimongodio",
+  "BasePath": "_content/apimongodio",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
