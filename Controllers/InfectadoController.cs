@@ -35,5 +35,18 @@ namespace apimongodio.Controllers
             
             return Ok(infectados);
     }
+
+        [HttpDelete("DeletarInfectados")]
+        public ActionResult DeletarInfectados()
+        {
+            var result = _infectadosCollection.DeleteMany(Builders<Infectado>.Filter.Empty);
+            if(result.DeletedCount > 0){
+                return Ok($"Total de {result.DeletedCount} infectados deletados com sucesso");
+            }
+            else{
+                 return NotFound("Nenhum infectado encontrado para deletar");
+            }
+        }
+
     }
 }
